@@ -5,7 +5,7 @@ const Seo = ({ title }) => {
   const data = useSiteMetadata()
 
   return (
-    <title>{title} | {data.title}</title>
+    <title>{title} | {data.title} | {data.header} </title>
   )
 }
 
