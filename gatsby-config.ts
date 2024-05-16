@@ -26,7 +26,8 @@ const config: GatsbyConfig = {
         path: `${__dirname}/images`,
       }
     },
-    "gatsby-plugin-mdx"
+    "gatsby-plugin-mdx",
+    "gatsby-transformer-sharp"
   ],
 }
 
